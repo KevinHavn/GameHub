@@ -7,4 +7,9 @@ https://xd.adobe.com/view/6494a813-e0b4-4593-ba49-2c2c0d806b67-31c7/
 
 https://silly-pavlova-798ace.netlify.app/order_processed.html
 
+----------------------------------------------
+References:
+Cart Icon - https://icon-icons.com/icon/shopping-cart/90604
+----------------------------------------------
+
 Sorry for the lackluster and seemingly rushed results - I was completely overwhelmed.
