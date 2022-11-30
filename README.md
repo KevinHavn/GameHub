@@ -14,5 +14,3 @@ Cart Icon - https://icon-icons.com/icon/shopping-cart/90604
 Menu Icon - https://www.iconfinder.com/icons/134216/menu_lines_hamburger_icon
 
 ----------------------------------------------
-
-Sorry for the lackluster and seemingly rushed results - I was completely overwhelmed.
