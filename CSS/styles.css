@@ -1,63 +1,80 @@
 *{
-    font-family:'Squada One','Arial';
-    text-transform:uppercase;
+    font-family:'Arial';
 }
-
+a:link, a:visited {
+    text-decoration:none!important;
+    color:white;
+}
 body {
     background:#1C243C;
     margin:0px;
 }
 
-h2, p {
+#selected {
+    color:black;
+}
+
+h1, h2, h3, p {
     color:white;
     font-size:2rem;
 }
 
+h1, h2, h3 {
+    text-transform:uppercase;
+}
+
 .grid{
-    display:grid;
+    max-width: 100%;
+    gap:15px;
+    color:white;
+    display:flex;
     justify-content:center;
-    grid-template-columns: auto;
 }
 
-.games_grid{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    gap:100px;
-    max-width:max-content
-}
-
-header {
+header, footer {
     background:#3A4050;
     width:100%;
     display:flex;
+    justify-content: center;
+    text-transform:uppercase;
+}
+
+footer {
+    margin-top:50px;
 }
 
 .navbar {
-    list-style:none;
     display:flex;
-    color:white;
-    text-decoration:none;
+    max-width: 100%;
+    gap: 30rem;
 }
+
+
+
 li {
-    font-size:40px;
-    margin-right:80%;
+    font-size: 32px;
 }
 
 .container {
-    justify-items: center;
-    object-fit:cover;
-    display:grid;
     text-align: center;
+    flex-direction:column;
     background:#3A4050;
     border-radius: 8px;
-    padding-bottom:20px;
+    padding-bottom:10px;
     gap:4px;
+    text-transform: uppercase;
+}
+
+.games {
     max-width:fit-content;
+    max-height:320px;
 }
 
 .processed {
     padding:20px;
+    display:flex;
+    max-width:fit-content;
+    justify-content:center;
 }
 
 .cart_grid {
@@ -95,7 +112,7 @@ li {
 }
 
 .cyberpunk {
-    max-width: 100%;
+    max-width: 380px;
 }
 
 .cart_game {
@@ -110,12 +127,95 @@ li {
 .details {
     background: #AEB800;
 }
-
 .button {
     border: 0;
     display:inline-block;
     text-align: center;
-    text-decoration: none;
     border-radius: 8px;
     font-size: 2rem;
 }
+button a:hover {
+    color:black;
+}
+.navbar li {
+    text-decoration: none;
+    color:white;
+    list-style: none;
+}
+.navbar li:hover {
+    background-color: #1a1d24;
+    border-radius: 5px;
+}
+#cart {
+    background:none;
+}
+.Finished {
+    align-self:center;
+    max-height:640px;
+    max-width:400px;
+}
+.home{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    color:white;
+    flex-direction:column;
+    gap:15px;
+    margin:15px;
+}
+.contain {
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    background:#3A4050;
+    border-radius: 8px;
+    padding-bottom:10px;
+    width:fit-content;
+    justify-content: center;
+    padding:15px;
+}
+.Featured {
+    display:flex;
+    flex-direction:row;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.logo{
+    align-self:center;
+    max-width:640px;
+}
+
+@media only screen and (orientation: landscape) {
+    #Hamburger {
+        display:none;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .landscape {
+        display:none;
+    }
+}
+
+.mobile {
+    background-color:#3A4050;
+    max-width:fit-content;
+    padding:5px;
+}
+
+#mobilelogo {
+    max-width: 172px;
+    background-color: #3A4050;
+    padding:5px;
+}
+
+.mobilegrid {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+
+
