@@ -14,3 +14,5 @@ Cart Icon - https://icon-icons.com/icon/shopping-cart/90604
 Menu Icon - https://www.iconfinder.com/icons/134216/menu_lines_hamburger_icon
 
 ----------------------------------------------
+
+Still uncertain why the footer is floating in the Games Page - I couldn't manage to figure that out.
